@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Income Tracker</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <h1>Income Tracker</h1>
+                <div class="col">
+                    <div class="box">
+                        <div class="total-balance">
+                            <h2>YOUR BALANCE</h2>
+                            <span id="total">$0.00</span>
+                        </div>
+                        <div class="inc-exp">
+                            <div class="income">
+                                <h3>INCOME</h3>
+                                <span id="income">$0.00</span>
+                            </div>
+                            <div class="expense">
+                                <h3>EXPENSE</h3>
+                                <span id="expense">$0.00</span>
+                            </div>
+                        </div>
+                        <div class="his">
+                            <h3>History</h3>
+                            <div class="gen">
+                                <ol id="History">
+                                    
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="new">
+                            <h3>Add new transaction</h3>
+                        </div>
+                        <div>
+                            <form id="form">
+                                <label for="name">Name</label><br>
+                                <input type="text" id="name" name="name" placeholder="Enter name of transition"><br>
+                                <label for="amount">Amount</label><br>
+                                <input type="number" id="number" name="amount" placeholder="Enter Amount">
+                                <button id="submit">Add Details</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

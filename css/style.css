@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ece6e6;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    background-color: #0e9615;
+    padding: 20px;
+    color: #fff;
+}
+
+.col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.total-balance span {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.inc-exp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 0 1px 3px #d8d0d0;
+    border-radius: 10px;
+    background-color: #fff;
+    gap: 20px;
+}
+
+.income,.expense {
+    text-align: center;
+}
+
+.income span {
+    color: #0e9615;
+    font-weight: 600;
+}
+
+.expense span {
+    color: #ff0000;
+    font-weight: 600;
+}
+
+.income {
+    position: relative;
+}
+
+.income::after {
+    position: absolute;
+    content: " ";
+    width: 2px;
+    height: 35px;
+    background-color: #d8d0d0;
+    right: -12px;
+    top: 3px;
+}
+
+.his {
+    border-bottom: 1px solid #d8d0d0;
+    padding-bottom: 8px;
+}
+
+.his h3 {
+    margin-top: 30px;
+}
+
+.new {
+    border-bottom: 1px solid #d8d0d0;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0;
+    font-size: 15px;
+    border-color: #ece6e6;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: #2d3aac;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+li #icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#icon {
+    width: 10px;
+}
+
+.green {
+    list-style-type: none;
+    border-right: 10px solid #0e9615;
+    padding: 15px;
+    font-size: 20px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.red {
+    list-style-type: none;
+    border-right: 10px solid red;
+    padding: 15px;
+    font-size: 20px;
+    margin: 10px 0;
+}
